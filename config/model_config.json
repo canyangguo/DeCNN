@@ -1,0 +1,25 @@
+{
+    "data_name": "mp",
+    "gps_num": 2,
+    "wifi_num": 327,
+    "cell_num": 34,
+    "data_path": "data/mp.csv",
+    "log_path": "log/",
+
+    "time_step": 10,
+
+    "input_num": 361,
+    "hidden_num": 64,
+    "output_num": 2,
+
+    "random_seed": 0,
+    "gpu_id": "cuda:0",
+
+    "batch_size": 64,
+    "learning_rate": 1e-3,
+    "eps": 1e-8,
+    "weight_decay": 1e-6,
+    "amsgrad": "False",
+    "metrics_num": 1
+}
+
